@@ -1,0 +1,7 @@
+<h2>Welcome to Text Adventure</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<label>Choose your characters name</label>
+<input #charName type="text">
+<button routerLink="room-one/:id" (click)="submitForm(charName.value)">Start Game</button>
